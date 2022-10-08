@@ -6,3 +6,11 @@
 TDAmeritrade.Web/TDAmeritradeKey
 TDAmeritrade.Console/Records/
 *.meta
+/TDAmeritrade.DataProtection/Properties/PublishProfiles/FolderProfile.pubxml
+/TDAmeritrade.DataProtection/Properties/PublishProfiles/FolderProfile.pubxml.user
+/TDAmeritrade.DataProtection/TDAmeritrade.DataProtection.csproj.user
+/TDAmeritrade.Web/Properties/PublishProfiles/FolderProfile.pubxml
+/TDAmeritrade.Web/Properties/PublishProfiles/FolderProfile.pubxml.user
+/TDAmeritrade.Web/TDAmeritrade.Web.csproj.user
+/TDAmeritrade/Properties/PublishProfiles/FolderProfile.pubxml
+/TDAmeritrade/Properties/PublishProfiles/FolderProfile.pubxml.user

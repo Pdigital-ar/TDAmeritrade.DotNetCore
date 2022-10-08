@@ -28,7 +28,8 @@ namespace TDAmeritrade.Web.Controllers
 
         public IActionResult RequestAccessToken(string consumerKey)
         {
-            var path = _client.GetSignInUrl(consumerKey);
+            var path = _client.GetSignInUrl(
+              consumerKey, $"{this.Request.Scheme}://{this.Request.Host}");
             _logger.LogInformation(path);
             return Redirect(path);
         }
