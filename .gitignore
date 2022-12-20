@@ -15,3 +15,4 @@ TDAmeritrade.Console/Records/
 /TDAmeritrade/Properties/PublishProfiles/FolderProfile.pubxml
 /TDAmeritrade/Properties/PublishProfiles/FolderProfile.pubxml.user
 /.vscode
+/TDAmeritrade/*.user
