@@ -44,7 +44,7 @@ namespace TDAmeritrade.Tests
         {
             var chain = await client.GetOptionsChain(new TDOptionChainRequest
             {
-                symbol = "QQQ"
+                symbol = "QQQ",
             });
             Assert.IsTrue(chain.callExpDateMap.Count > 0);
         }

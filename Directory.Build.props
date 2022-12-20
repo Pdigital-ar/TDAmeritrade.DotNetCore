@@ -1,0 +1,14 @@
+<!-- 
+####################
+# v2022-11-19
+# Pack: Directory.Builder.props; stylecop.json; .editorconfig
+####################
+ -->
+<Project>
+  <ItemGroup>
+    <PackageReference Include="SonarAnalyzer.CSharp" Version="8.48.0.56517" PrivateAssets="all" Condition="$(MSBuildProjectExtension) == '.csproj'"/>
+    <PackageReference Include="StyleCop.Analyzers" Version="1.2.0-beta.435" PrivateAssets="all" Condition="$(MSBuildProjectExtension) == '.csproj'" />
+    <AdditionalFiles Include="../stylecop.json" Link="stylecop.json" />
+    <None Include="..\.editorconfig" Link=".editorconfig" />
+  </ItemGroup>
+</Project>

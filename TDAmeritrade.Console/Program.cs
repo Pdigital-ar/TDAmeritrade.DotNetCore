@@ -20,7 +20,6 @@ namespace TDConsole
 
         TDUnprotectedCache cache;
         TDAmeritradeClient client;
-        FileStream stream;
         bool terminated;
 
         public Program()
@@ -32,10 +31,6 @@ namespace TDConsole
         public void Dispose()
         {
             terminated = true;
-            if (stream != null)
-            {
-                stream.Dispose();
-            }
         }
 
         public async Task Run()
