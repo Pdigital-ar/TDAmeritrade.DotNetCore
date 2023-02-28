@@ -9,7 +9,7 @@
       The original component is no longer listed.
       For this reason it was recompiled in .net7 and republished.
       Original source: https://github.com/NVentimiglia/TDAmeritrade.DotNetCore
-      The fork for rebuild: https://github.com/puertaDigital/TDAmeritrade.DotNetCore
+      The fork for this rebuild: https://github.com/puertaDigital/TDAmeritrade.DotNetCore
     </Description>
     <Copyright>Public Domain</Copyright>
     <PackageIcon>icon.png</PackageIcon>
@@ -19,13 +19,16 @@
     <PackageProjectUrl>https://github.com/puertaDigital/TDAmeritrade.DotNetCore</PackageProjectUrl>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageReleaseNotes>
-      * 1.1.0 Rebuild in .net7.
+      * 1.1.1
+        - The associated icon is updated.
+      * 1.1.0
+        - Rebuild in .net7.
     </PackageReleaseNotes>
     <PackageTags></PackageTags>
     <RepositoryType>git</RepositoryType>
     <RepositoryUrl>https://github.com/puertaDigital/TDAmeritrade.DotNetCore</RepositoryUrl>
     <TargetFramework>net7.0</TargetFramework>
-    <Version>1.1.0.0</Version>
+    <Version>1.1.1.0</Version>
   </PropertyGroup>
 
   <ItemGroup>

@@ -1,4 +1,5 @@
 ## TD Ameritrade Client Library for .NET
+Copyright (c) 2021 [Nicholas Ventimiglia](https://www.nicholasventimiglia.com)
 
 Free, open-source .NET Client for the [TD Ameritrade Trading Platform](https://www.tdameritrade.com/api.page).
 Helps developers integrate TD Ameritrade API into custom trading solutions.
