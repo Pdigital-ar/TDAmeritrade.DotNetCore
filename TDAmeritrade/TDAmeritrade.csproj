@@ -1,12 +1,38 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
+    <Authors>JorgePinetta, NVentimiglia (original author)</Authors>
+    <Company>puertaDigital</Company>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description>
+      # TD Ameritrade Client Library for .NET
+      The original component is no longer listed.
+      For this reason it was recompiled in .net7 and republished.
+      Original source: https://github.com/NVentimiglia/TDAmeritrade.DotNetCore
+      My fork for rebuild: https://github.com/puertaDigital/TDAmeritrade.DotNetCore
+    </Description>
+    <Copyright>Public Domain</Copyright>
+    <PackageIcon>icon.png</PackageIcon>
+    <PackageId>puertaDigital.TDAmeritrade</PackageId>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageLicenseFile></PackageLicenseFile>
+    <PackageProjectUrl>https://github.com/puertaDigital/TDAmeritrade.DotNetCore</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageReleaseNotes>
+      * 1.1.0 Rebuild in .net7.
+    </PackageReleaseNotes>
+    <PackageTags></PackageTags>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/puertaDigital/TDAmeritrade.DotNetCore</RepositoryUrl>
     <TargetFramework>net7.0</TargetFramework>
     <Version>1.1.0.0</Version>
-    <RepositoryUrl>https://github.com/Pdigital-ar/TDAmeritrade.DotNetCore</RepositoryUrl>
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Include="icon.png" Pack="true" PackagePath="\"/>
+    <None Include="README.md" Pack="true" PackagePath="\"/>
+  </ItemGroup>
+  
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>

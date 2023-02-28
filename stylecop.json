@@ -1,14 +1,13 @@
 ﻿{
   "PdPack": [
     "####################",
-    "# v2022-11-19",
-    "# Pack: Directory.Builder.props; stylecop.json; .editorconfig",
+    "# v2022-12-25",
     "####################"
   ],
   "$schema": "https://raw.githubusercontent.com/DotNetAnalyzers/StyleCopAnalyzers/master/StyleCop.Analyzers/StyleCop.Analyzers/Settings/stylecop.schema.json",
   "settings": {
     "documentationRules": {
-      "companyName": "puertaDigital.com",
+      "companyName": "puertaDigital",
       "copyrightText": "Copyright (c) {publishDate} {companyName}",
       "variables": {
         "publishDate": "2017"
