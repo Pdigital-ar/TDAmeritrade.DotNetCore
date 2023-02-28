@@ -5,11 +5,11 @@
     <Company>puertaDigital</Company>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Description>
-      # TD Ameritrade Client Library for .NET
+      TD Ameritrade Client Library for .NET
       The original component is no longer listed.
       For this reason it was recompiled in .net7 and republished.
       Original source: https://github.com/NVentimiglia/TDAmeritrade.DotNetCore
-      My fork for rebuild: https://github.com/puertaDigital/TDAmeritrade.DotNetCore
+      The fork for rebuild: https://github.com/puertaDigital/TDAmeritrade.DotNetCore
     </Description>
     <Copyright>Public Domain</Copyright>
     <PackageIcon>icon.png</PackageIcon>
