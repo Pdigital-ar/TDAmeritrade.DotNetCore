@@ -1,6 +1,6 @@
 Config NuGet Package
 - In .csproj add:
-<RepositoryUrl>https://github.com/Pdigital-ar/PdNet/TDAmeritrade.DotNetCore</RepositoryUrl>
+<RepositoryUrl>https://github.com/Pdigital-ar/TDAmeritrade.DotNetCore</RepositoryUrl>
 <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 - In project root add Nuget.Config file:
 <?xml version="1.0" encoding="utf-8"?>
@@ -18,4 +18,4 @@ Config NuGet Package
 </configuration>
 
 Publish NuGet Package
-> dotnet nuget push "bin/Release/TDAmeritrade.1.1.0.nupkg"  --source "github"
+> dotnet nuget push "bin/Release/TDAmeritrade.1.1.0.nupkg" --source "github"
