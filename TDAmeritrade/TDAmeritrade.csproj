@@ -19,6 +19,9 @@
     <PackageProjectUrl>https://github.com/puertaDigital/TDAmeritrade.DotNetCore</PackageProjectUrl>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageReleaseNotes>
+      * 1.1.2
+        - Rebuild in .net8
+        - Sync parent repository.
       * 1.1.1
         - The associated icon is updated.
       * 1.1.0
@@ -27,13 +30,13 @@
     <PackageTags></PackageTags>
     <RepositoryType>git</RepositoryType>
     <RepositoryUrl>https://github.com/puertaDigital/TDAmeritrade.DotNetCore</RepositoryUrl>
-    <TargetFramework>net7.0</TargetFramework>
-    <Version>1.1.1.0</Version>
+    <TargetFramework>net8.0</TargetFramework>
+    <Version>1.1.2.0</Version>
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="icon.png" Pack="true" PackagePath="\"/>
-    <None Include="README.md" Pack="true" PackagePath="\"/>
+    <None Include="icon.png" Pack="true" PackagePath="\" />
+    <None Include="README.md" Pack="true" PackagePath="\" />
   </ItemGroup>
   
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -63,7 +66,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
   </ItemGroup>
 
 </Project>
